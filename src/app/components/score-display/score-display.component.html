@@ -1,0 +1,46 @@
+<div class="user-score-container">
+  <div class="sleep-score-container">
+    <div
+      [ngClass]="{
+        red: sleepScoreColor == 0,
+        orange: sleepScoreColor == 1,
+        green: sleepScoreColor == 2,
+        'sleep-score': !isFriend,
+        'friend-sleep-score': isFriend
+      }"
+    >
+      {{ userData.sleepScore }}
+    </div>
+    <div>Sleep</div>
+  </div>
+  <!-- isFriend ? 'friend-readiness-score' : 'readiness-score' -->
+  <div class="readiness-score-container">
+    <div
+      [ngClass]="{
+        red: activityScoreColor == 0,
+        orange: activityScoreColor == 1,
+        green: activityScoreColor == 2,
+        'readiness-score': !isFriend,
+        'friend-readiness-score': isFriend
+      }"
+    >
+      {{ userData.readinessScore }}
+    </div>
+    <div>Readiness</div>
+  </div>
+
+  <div class="activity-score-container">
+    <div
+      [ngClass]="{
+        red: activityScoreColor == 0,
+        orange: activityScoreColor == 1,
+        green: activityScoreColor == 2,
+        'activity-score': !isFriend,
+        'friend-activity-score': isFriend
+      }"
+    >
+      {{ userData.activityScore }}
+    </div>
+    <div>Activity</div>
+  </div>
+</div>

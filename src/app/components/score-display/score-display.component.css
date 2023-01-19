@@ -1,0 +1,53 @@
+.user-score-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 2vh;
+}
+
+.sleep-score,
+.readiness-score,
+.activity-score {
+  margin-bottom: 1rem;
+  border: 3px solid #9fb2bc;
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+  text-align: center;
+  line-height: 2.9rem;
+  display: block;
+  font-size: 0.8rem;
+}
+
+.friend-sleep-score,
+.friend-readiness-score,
+.friend-activity-score {
+  margin-bottom: 0.35rem;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 1.3rem;
+  display: block;
+  font-size: 0.8rem;
+}
+
+.red {
+  border: 2px solid red;
+}
+
+.green {
+  border: 2px solid green;
+}
+
+.orange {
+  border: 2px solid orange;
+}
+
+.sleep-score-container,
+.readiness-score-container,
+.activity-score-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

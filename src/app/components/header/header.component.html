@@ -1,0 +1,27 @@
+<nav class="navbar sticky-top navbar-light bg-light">
+  <div class="header-container">
+    <div class="navbar-container">
+      <div>
+        <span class="material-symbols-outlined sleep-share-profile">
+          account_circle
+        </span>
+      </div>
+
+      <div class="sleep-share-home sleep-share-logo-text">Sleep Share</div>
+
+      <div>
+        <span class="material-symbols-outlined sleep-share-settings">
+          settings
+        </span>
+      </div>
+    </div>
+
+    <div class="user-score">My Scores</div>
+    <sleep-share-score-display
+      [isFriend]="false"
+      [userData]="user"
+    ></sleep-share-score-display>
+
+    <button (click)="authenticateUser()">Authenticate</button>
+  </div>
+</nav>

@@ -1,0 +1,26 @@
+<div class="friend-data-container">
+  <div class="friend-header-container">
+    <div>
+      <span class="material-symbols-outlined friend-icon">
+        account_circle
+      </span>
+    </div>
+    <div class="friend-name">
+      {{ userData.name }}
+    </div>
+    <div>
+      <span class="material-symbols-outlined friend-icon"> photo_camera </span>
+    </div>
+  </div>
+
+  <div class="friend-status">
+    {{ userData.status }}
+  </div>
+
+  <div>
+    <sleep-share-score-display
+      [isFriend]="true"
+      [userData]="userData"
+    ></sleep-share-score-display>
+  </div>
+</div>

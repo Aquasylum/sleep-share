@@ -1,0 +1,21 @@
+.friend-data-container {
+  text-align: center;
+
+  margin-top: 1.5em;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  padding-bottom: 1.5em;
+  background-color: rgba(211, 211, 211, 0.902);
+  border-radius: 10px;
+}
+
+.friend-header-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.friend-name,
+.friend-icon {
+  font-size: 2rem;
+}

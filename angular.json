@@ -25,7 +25,12 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/assets/fonts/Pacifico/stylesheet.css",
+              "src/assets/fonts/Babas/stylesheet.css",
+              "src/assets/fonts/AlegreyaMedium/stylesheet.css",
+              "src/assets/fonts/Alegreya/stylesheet.css",
+              "src/assets/fonts/AlegreyaBold/stylesheet.css"
             ],
             "scripts": ["node_modules/bootstrap/dist/js/bootstrap.js"]
           },
